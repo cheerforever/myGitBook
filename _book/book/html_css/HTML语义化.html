@@ -1,0 +1,507 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>HTML语义化 · danni's book</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Danni Wang">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="DOCTYPE和浏览器渲染模式.html" />
+    
+    
+    <link rel="prev" href="HTML常用标签.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="http://www.dannicheer.com" target="_blank" class="custom-link">danni's Blog</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">前端工程师手册</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">HTML/CSS基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="HTML常用标签.html">
+            
+                <a href="HTML常用标签.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    HTML常用标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="HTML语义化.html">
+            
+                <a href="HTML语义化.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    HTML语义化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="DOCTYPE和浏览器渲染模式.html">
+            
+                <a href="DOCTYPE和浏览器渲染模式.html">
+            
+                    
+                        <b>2.3.</b>
+                    
+                    DOCTYPE和浏览器渲染模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >HTML语义化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="html&#x8BED;&#x4E49;&#x5316;">HTML&#x8BED;&#x4E49;&#x5316;</h1>
+<h2 id="web&#x8BED;&#x4E49;&#x5316;">Web&#x8BED;&#x4E49;&#x5316;</h2>
+<p>Web&#x8BED;&#x4E49;&#x5316;&#x662F;&#x6307;&#x4F7F;&#x7528;&#x6070;&#x5F53;&#x8BED;&#x4E49;&#x7684;html&#x6807;&#x7B7E;&#x3001;class&#x7C7B;&#x540D;&#x7B49;&#x5185;&#x5BB9;&#xFF0C;&#x8BA9;&#x9875;&#x9762;&#x5177;&#x6709;&#x826F;&#x597D;&#x7684;&#x7ED3;&#x6784;&#x4E0E;&#x542B;&#x4E49;&#xFF0C;&#x4ECE;&#x800C;&#x8BA9;&#x4EBA;&#x548C;&#x673A;&#x5668;&#x90FD;&#x80FD;&#x5FEB;&#x901F;&#x7406;&#x89E3;&#x7F51;&#x9875;&#x5185;&#x5BB9;&#x3002;</p>
+<blockquote>
+<p>&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x5728;&#x53D1;&#x5E03;&#x5185;&#x5BB9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x7528;&#x673A;&#x5668;&#x53EF;&#x8BFB;&#x7684;&#x3001;&#x88AB;&#x5E7F;&#x6CDB;&#x8BA4;&#x53EF;&#x7684;&#x8BED;&#x4E49;&#x4FE1;&#x606F;&#x6765;&#x63CF;&#x8FF0;&#x5185;&#x5BB9;&#xFF0C;&#x6765;&#x964D;&#x4F4E;&#x673A;&#x5668;&#x5904;&#x7406; Web &#x5185;&#x5BB9;&#x7684;&#x96BE;&#x5EA6;</p>
+</blockquote>
+<p>web&#x8BED;&#x4E49;&#x5316;&#x5305;&#x542B;&#x4E86;&#x4E09;&#x90E8;&#x5206;&#xFF1A;</p>
+<ul>
+<li>html&#x6807;&#x7B7E;&#x8BED;&#x4E49;&#x5316;</li>
+<li>css&#x547D;&#x540D;&#x8BED;&#x4E49;&#x5316;</li>
+<li>URL&#x8BED;&#x4E49;&#x5316;</li>
+</ul>
+<h2 id="web&#x8BED;&#x4E49;&#x5316;&#x7684;&#x4F18;&#x70B9;">Web&#x8BED;&#x4E49;&#x5316;&#x7684;&#x4F18;&#x70B9;</h2>
+<ul>
+<li>&#x6B63;&#x786E;&#x7684;&#x6807;&#x7B7E;&#x505A;&#x6B63;&#x786E;&#x7684;&#x4E8B;&#x60C5;&#x3002;</li>
+<li>&#x9875;&#x9762;&#x5185;&#x5BB9;&#x7ED3;&#x6784;&#x5316;&#x3002;</li>
+<li>&#x65E0;CSS&#x6837;&#x5B50;&#x65F6;&#x4E5F;&#x5BB9;&#x6613;&#x9605;&#x8BFB;&#xFF0C;&#x4FBF;&#x4E8E;&#x9605;&#x8BFB;&#x7EF4;&#x62A4;&#x548C;&#x7406;&#x89E3;&#x3002;</li>
+<li>&#x4FBF;&#x4E8E;&#x6D4F;&#x89C8;&#x5668;&#x3001;&#x641C;&#x7D22;&#x5F15;&#x64CE;&#x89E3;&#x6790;&#x3002; &#x5229;&#x4E8E;&#x722C;&#x866B;&#x6807;&#x8BB0;&#x3001;&#x5229;&#x4E8E;SEO&#x3002;</li>
+</ul>
+<h2 id="html&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;">HTML&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;</h2>
+<p>HTML&#x4E3A;&#x7F51;&#x9875;&#x6587;&#x6863;&#x5185;&#x5BB9;&#x63D0;&#x4F9B;&#x4E0A;&#x4E0B;&#x6587;&#x7ED3;&#x6784;&#x548C;&#x542B;&#x4E49;&#x3002;&#x901A;&#x5E38;&#x6211;&#x4EEC;&#x6240;&#x8BF4;&#x7684;HTML&#x5E94;&#x8BE5;&#x662F;&#x5B8C;&#x5168;&#x8131;&#x79BB;&#x8868;&#x73B0;&#x4FE1;&#x606F;&#x7684;&#xFF0C;&#x5176;&#x4E2D;&#x7684;&#x6807;&#x7B7E;&#x5E94;&#x8BE5;&#x90FD;&#x662F;&#x8BED;&#x4E49;&#x5316;&#x5730;&#x5B9A;&#x4E49;&#x4E86;&#x6587;&#x6863;&#x7684;&#x7ED3;&#x6784;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">charset</span>=<span class="hljs-string">&quot;UTF-8&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>
+                    h1 - Web&#x8BED;&#x4E49;&#x5316;
+                <span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>nav1 - HTML&#x8BED;&#x4E49;&#x5316;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>nav2 - CSS&#x8BED;&#x4E49;&#x5316;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+                setction1 - HTML&#x8BED;&#x4E49;&#x5316;
+            <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+                section2 - CSS&#x8BED;&#x4E49;&#x5316;
+            <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">time</span> <span class="hljs-attr">datetime</span>=<span class="hljs-string">&quot;2020-02-14&quot;</span> <span class="hljs-attr">pubdate</span>&gt;</span>time - 2020&#x5E74;02&#x6708;14&#x65E5;<span class="hljs-tag">&lt;/<span class="hljs-name">time</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>footer - by danni<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+<p>html&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;&#x5305;&#x62EC; body, article, nav, aside, section, header, footer, hgroup, &#x8FD8;&#x6709; h1-h6 address&#x7B49;&#x3002;</p>
+<h3 id="&#x5E38;&#x7528;&#x7684;html5&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;">&#x5E38;&#x7528;&#x7684;HTML5&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;</h3>
+<h4 id="header&#x5143;&#x7D20;">header&#x5143;&#x7D20;</h4>
+<p><code>header</code>&#x5143;&#x7D20;&#x4EE3;&#x8868;&#x201C;&#x7F51;&#x9875;&#x201D;&#x6216;&#x8005;&#x201C;section&#x201D;&#x7684;&#x9875;&#x7709;&#xFF0C;&#x901A;&#x5E38;&#x5305;&#x542B;h1-h6 &#x5143;&#x7D20;&#x6216;&#x8005; hgroup, &#x4F5C;&#x4E3A;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x6216;&#x8005;&#x4E00;&#x4E2A;&#x5185;&#x5BB9;&#x5757;&#x7684;&#x6807;&#x9898;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x5305;&#x88F9;&#x4E00;&#x8282;&#x7684;&#x76EE;&#x5F55;&#x90E8;&#x5206;&#xFF0C;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x6846;&#xFF0C;&#x4E00;&#x4E2A;nav&#xFF0C;&#x6216;&#x8005;&#x76F8;&#x5173;logo&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">hgroup</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x7F51;&#x7AD9;&#x6807;&#x9898;<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x7F51;&#x7AD9;&#x526F;&#x6807;&#x9898;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">hgroup</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li><code>header</code>&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x662F;&#x201C;&#x7F51;&#x9875;&#x201D;&#x6216;&#x8005;&#x4EFB;&#x610F;&#x201C;section&#x201D;&#x7684;&#x5934;&#x90E8;&#x90E8;&#x5206;&#x3002;</li>
+<li>&#x6CA1;&#x6709;&#x4E2A;&#x6570;&#x9650;&#x5236;&#x3002;</li>
+<li>&#x5982;&#x679C;hgroup&#x6216;&#x8005;h1-h6&#x81EA;&#x5DF1;&#x5C31;&#x80FD;&#x5DE5;&#x4F5C;&#x5F97;&#x5F88;&#x597D;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x6CA1;&#x5FC5;&#x8981;&#x7528;header&#x3002;</li>
+</ul>
+<h4 id="hgroup&#x5143;&#x7D20;">hgroup&#x5143;&#x7D20;</h4>
+<p><code>hgroup</code>&#x5143;&#x7D20;&#x4EE3;&#x8868;&#x201C;&#x7F51;&#x9875;&#x201D;&#x6216;&#x201C;section&#x201D;&#x7684;&#x6807;&#x9898;&#xFF0C;&#x5F53;&#x5143;&#x7D20;&#x6709;&#x591A;&#x4E2A;&#x5C42;&#x7EA7;&#x65F6;&#xFF0C;&#x8BE5;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x5C06;<code>h1</code>&#x5230;<code>h6</code>&#x5143;&#x7D20;&#x653E;&#x5728;&#x5176;&#x5185;&#x3002;&#x53EF;&#x7528;&#x4E8E;&#x6587;&#x7AE0;&#x7684;&#x4E3B;&#x6807;&#x9898;&#x548C;&#x526F;&#x6807;&#x9898;&#x7EC4;&#x5408;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">hgroup</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x4E3B;&#x6807;&#x9898;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x526F;&#x6807;&#x9898;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">hgroup</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x5982;&#x679C;&#x53EA;&#x9700;&#x8981;&#x4E00;&#x4E2A;h1-h6&#x6807;&#x7B7E;&#x5C31;&#x4E0D;&#x7528;hgroup&#x3002;</li>
+<li>&#x5982;&#x679C;&#x6709;&#x8FDE;&#x7EED;&#x591A;&#x4E2A;h1-h6&#x6807;&#x7B7E;&#x5C31;&#x7528;hgroup&#x3002;</li>
+<li>&#x5982;&#x679C;&#x6709;&#x8FDE;&#x7EED;&#x591A;&#x4E2A;&#x6807;&#x9898;&#x548C;&#x5176;&#x4ED6;&#x6587;&#x7AE0;&#x6570;&#x636E;&#xFF0C;h1-h6&#x6807;&#x7B7E;&#x5C31;&#x7528;hgroup&#x5305;&#x4F4F;&#xFF0C;&#x548C;&#x5176;&#x4ED6;&#x6587;&#x7AE0;&#x5143;&#x6570;&#x636E;&#x4E00;&#x8D77;&#x653E;&#x5165;header&#x6807;&#x7B7E;&#x3002;</li>
+</ul>
+<h4 id="footer-&#x5143;&#x7D20;">footer &#x5143;&#x7D20;</h4>
+<p><code>footer</code>&#x5143;&#x7D20;&#x4EE3;&#x8868;&#x201C;&#x7F51;&#x9875;&#x201D;&#x6216;&#x4EFB;&#x610F;&#x201C;section&#x201D;&#x7684;&#x9875;&#x811A;&#xFF0C;&#x901A;&#x5E38;&#x542B;&#x6709;&#x8BE5;&#x8282;&#x7684;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x4FE1;&#x606F;&#xFF0C;&#x8B6C;&#x5982;&#xFF1A;&#x4F5C;&#x8005;&#xFF0C;&#x76F8;&#x5173;&#x6587;&#x6863;&#x94FE;&#x63A5;&#xFF0C;&#x7248;&#x6743;&#x8D44;&#x6599;&#x3002;&#x5982;&#x679C;<code>footer</code>&#x5143;&#x7D20;&#x5305;&#x542B;&#x4E86;&#x6574;&#x4E2A;&#x8282;&#xFF0C;&#x90A3;&#x4E48;&#x5B83;&#x4EEC;&#x5C31;&#x4EE3;&#x8868;&#x9644;&#x5F55;&#xFF0C;&#x7D22;&#x5F15;&#xFF0C;&#x63D0;&#x62D4;&#xFF0C;&#x8BB8;&#x53EF;&#x534F;&#x8BAE;&#xFF0C;&#x6807;&#x7B7E;&#xFF0C;&#x7C7B;&#x522B;&#x7B49;&#x4E00;&#x4E9B;&#x5176;&#x4ED6;&#x7C7B;&#x4F3C;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+    @danni
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x53EF;&#x4EE5;&#x662F;&#x201C;&#x7F51;&#x9875;&#x201D;&#x6216;&#x8005;&#x4EFB;&#x610F;&#x201C;section&#x201D;&#x7684;&#x5E95;&#x90E8;&#x90E8;&#x5206;&#x3002;</li>
+<li>&#x6CA1;&#x6709;&#x4E2A;&#x6570;&#x9650;&#x5236;&#xFF0C;&#x9664;&#x4E86;&#x5305;&#x88F9;&#x7684;&#x5185;&#x5BB9;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x5176;&#x4ED6;&#x8DDF;header&#x7C7B;&#x4F3C;&#x3002;</li>
+</ul>
+<h4 id="nav-&#x5143;&#x7D20;">nav &#x5143;&#x7D20;</h4>
+<p><code>nav</code>&#x5143;&#x7D20;&#x4EE3;&#x8868;&#x9875;&#x9762;&#x7684;&#x5BFC;&#x822A;&#x94FE;&#x63A5;&#x533A;&#x57DF;&#x3002;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x9875;&#x9762;&#x7684;&#x4E3B;&#x8981;&#x5BFC;&#x822A;&#x90E8;&#x5206;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>HTML&#x8BED;&#x4E49;&#x5316;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>CSS &#x8BED;&#x4E49;&#x5316;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+</code></pre>
+<p>&#x89C4;&#x8303;&#x4E0A;&#x8BF4;nav&#x53EA;&#x80FD;&#x7528;&#x5728;&#x9875;&#x9762;&#x4E3B;&#x8981;&#x5BFC;&#x822A;&#x90E8;&#x5206;&#x4E0A;&#x3002;&#x9875;&#x811A;&#x533A;&#x57DF;&#x4E2D;&#x7684;&#x94FE;&#x63A5;&#x5217;&#x8868;&#xFF0C;&#x867D;&#x7136;&#x6307;&#x5411;&#x4E0D;&#x540C;&#x7F51;&#x7AD9;&#x7684;&#x4E0D;&#x540C;&#x533A;&#x57DF;&#xFF0C;&#x8B6C;&#x5982;&#x670D;&#x52A1;&#x6761;&#x6B3E;&#xFF0C;&#x7248;&#x6743;&#x9875;&#x7B49;&#xFF0C;&#x8FD9;&#x4E9B;footer&#x5143;&#x7D20;&#x5C31;&#x80FD;&#x591F;&#x7528;&#x4E86;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x7528;&#x4E8E;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x4E3B;&#x8981;&#x5BFC;&#x822A;&#x90E8;&#x5206;&#xFF0C;&#x4E0D;&#x9002;&#x5408;&#x5C31;&#x4E0D;&#x8981;&#x7528;nav&#x5143;&#x7D20;&#x4E86;&#x3002;</li>
+</ul>
+<h4 id="article-&#x5143;&#x7D20;">article &#x5143;&#x7D20;</h4>
+<p><code>article</code>&#x5143;&#x7D20; &#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x5728;&#x6587;&#x6863;&#xFF0C;&#x9875;&#x9762;&#x6216;&#x8005;&#x7F51;&#x7AD9;&#x4E2D;&#x81EA;&#x6210;&#x4E00;&#x4F53;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5176;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x8BA9;&#x5F00;&#x53D1;&#x8005;&#x72EC;&#x7ACB;&#x5F00;&#x53D1;&#x6216;&#x91CD;&#x7528;&#x3002;</p>
+<p>&#x9664;&#x4E86;&#x5B83;&#x7684;&#x5185;&#x5BB9;&#xFF0C;<code>article</code>&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x6807;&#x9898;(&#x901A;&#x5E38;&#x4F1A;&#x5728;<code>header</code>&#x91CC;)&#x548C;&#x4E00;&#x4E2A;<code>footer</code>&#x9875;&#x811A;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x4F60;&#x597D;&#xFF0C;&#x6211;&#x662F;&#x8FD9;&#x8FB9;&#x6587;&#x7AE0;&#x7684;&#x6807;&#x9898;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x4F60;&#x597D;&#xFF0C;&#x6211;&#x662F;&#x6587;&#x7AE0;&#x7684;&#x5185;&#x5BB9;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x6700;&#x7EC8;&#x89E3;&#x91CA;&#x6743;&#x5F52;XXX&#x6240;&#x6709;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+</code></pre>
+<p><code>article</code> &#x5185;&#x90E8;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;<code>article</code>&#xFF0C;&#x8868;&#x793A;&#x8BC4;&#x8BBA;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x8DDF;&#x6587;&#x7AE0;&#x6709;&#x5173;&#x8054;&#x7684;&#x5185;&#x5BB9;&#x3002;<code>article</code>&#x5185;&#x90E8;&#x8FD8;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;<code>section</code>&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>web&#x8BED;&#x4E49;&#x5316;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x4EC0;&#x4E48;&#x662F;&#x8BED;&#x4E49;&#x5316;&#xFF1F;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x8BED;&#x4E49;&#x5316;&#x8BE6;&#x89E3;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x8BED;&#x4E49;&#x5316;&#x5C31;&#x662F;&#x3002;&#x3002;&#x3002;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x8BED;&#x4E49;&#x5316;&#x7279;&#x70B9;<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x8BED;&#x4E49;&#x5316;&#x7279;&#x70B9;&#x5C31;&#x662F;&#x3002;&#x3002;&#x3002;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+</code></pre>
+<p>&#x6587;&#x7AE0;&#x5185;<code>section</code>&#x662F;&#x72EC;&#x7ACB;&#x7684;&#x90E8;&#x5206;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x4EEC;&#x53EA;&#x80FD;&#x7B97;&#x662F;&#x7EC4;&#x6210;&#x6574;&#x4F53;&#x7684;&#x4E00;&#x90E8;&#x5206;&#xFF0C;&#x4ECE;&#x5C5E;&#x5173;&#x7CFB;&#xFF0C;<code>article</code>&#x662F;&#x5927;&#x4E3B;&#x4F53;&#xFF0C;<code>section</code>&#x662F;&#x6784;&#x6210;&#x8FD9;&#x4E2A;&#x5927;&#x4E3B;&#x4F53;&#x7684;&#x4E00;&#x4E2A;&#x90E8;&#x5206;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li><p>&#x81EA;&#x8EAB;&#x72EC;&#x7ACB;&#x60C5;&#x51B5;&#x4E0B;&#xFF1A;&#x7528;<code>article</code>&#x3002;</p>
+</li>
+<li><p>&#x662F;&#x76F8;&#x5173;&#x5185;&#x5BB9;&#xFF1A; &#x7528;<code>section</code>&#x3002;</p>
+</li>
+<li><p>&#x6CA1;&#x6709;&#x8BED;&#x4E49;&#x7684;&#xFF1A; &#x7528;<code>div</code>&#x3002;</p>
+</li>
+</ul>
+<h4 id="section-&#x5143;&#x7D20;">section &#x5143;&#x7D20;</h4>
+<p><code>section</code> &#x5143;&#x7D20;&#x4EE3;&#x8868;&#x6587;&#x6863;&#x4E2D;&#x7684;&#x201C;&#x8282;&#x201D;&#x6216;&#x201C;&#x6BB5;&#x201D;&#xFF0C;&#x201C;&#x6BB5;&#x201D;&#x53EF;&#x4EE5;&#x662F;&#x6307;&#x4E00;&#x7247;&#x6587;&#x7AE0;&#x91CC;&#x6309;&#x7167;&#x4E3B;&#x9898;&#x7684;&#x5206;&#x6BB5;&#xFF1B;&#x201C;&#x8282;&#x201D;&#x53EF;&#x4EE5;&#x662F;&#x6307;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x91CC;&#x7684;&#x5206;&#x7EC4;&#x3002;<code>section</code>&#x901A;&#x5E38;&#x8FD8;&#x5E26;&#x6807;&#x9898;&#xFF0C;&#x867D;&#x7136;html5&#x4E2D;section&#x4F1A;&#x81EA;&#x52A8;&#x7ED9;&#x6807;&#x9898;h1-h6&#x964D;&#x7EA7;&#xFF0C;&#x4F46;&#x662F;&#x6700;&#x597D;&#x624B;&#x52A8;&#x7ED9;&#x4ED6;&#x4EEC;&#x964D;&#x7EA7;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>section&#x662F;&#x5565;&#xFF1F;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>&#x5173;&#x4E8E;section<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>section&#x7684;&#x4ECB;&#x7ECD;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>&#x5173;&#x4E8E;&#x5176;&#x4ED6;<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x5173;&#x4E8E;&#x5176;&#x4ED6;section&#x7684;&#x4ECB;&#x7ECD;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x4E00;&#x5F20;&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x7528;<code>section</code>&#x5212;&#x5206;&#x4E3A;&#x7B80;&#x4ECB;&#x3001;&#x6587;&#x7AE0;&#x6761;&#x76EE;&#x548C;&#x8054;&#x7CFB;&#x4FE1;&#x606F;&#x3002;&#x4E0D;&#x8FC7;&#x5728;&#x6587;&#x7AE0;&#x5185;&#x9875;&#xFF0C;&#x6700;&#x597D;&#x7528;<code>article</code>&#x3002;<code>section</code>&#x4E0D;&#x662F;&#x4E00;&#x822C;&#x610F;&#x4E49;&#x4E0A;&#x7684;&#x5BB9;&#x5668;&#x5143;&#x7D20;&#xFF0C;&#x5982;&#x679C;&#x60F3;&#x4F5C;&#x4E3A;&#x6837;&#x5F0F;&#x5C55;&#x793A;&#x548C;&#x811A;&#x672C;&#x7684;&#x4FBF;&#x5229;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;<code>div</code>&#x3002;</li>
+<li>&#x8868;&#x793A;&#x6587;&#x6863;&#x4E2D;&#x7684;&#x8282;&#x6216;&#x8005;&#x6BB5;&#x3002;</li>
+<li><code>acticle</code>&#x3001;<code>nav</code>&#x3001;<code>aside</code>&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x7279;&#x6B8A;&#x7684;<code>section</code>&#xFF0C;&#x5982;&#x679C;&#x53EF;&#x4EE5;&#x7528;<code>article</code>&#x3001;<code>nav</code>&#x3001;<code>aside</code>&#x5C31;&#x4E0D;&#x8981;&#x7528;<code>section</code>&#xFF0C;&#x6CA1;&#x6709;&#x5B9E;&#x9645;&#x610F;&#x4E49;&#x7684;&#x5C31;&#x7528;<code>div</code>&#x3002;</li>
+</ul>
+<h4 id="aside&#x5143;&#x7D20;">aside&#x5143;&#x7D20;</h4>
+<p><code>aside</code> &#x5143;&#x7D20;&#x88AB;&#x5305;&#x542B;&#x5728;<code>article</code>&#x5143;&#x7D20;&#x4E2D;&#x4F5C;&#x4E3A;&#x4E3B;&#x8981;&#x5185;&#x5BB9;&#x7684;&#x9644;&#x5C5E;&#x4FE1;&#x606F;&#x90E8;&#x5206;&#xFF0C;&#x5176;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x662F;&#x4E0E;&#x5F53;&#x524D;&#x6587;&#x7AE0;&#x6709;&#x5173;&#x7684;&#x76F8;&#x5173;&#x8D44;&#x6599;&#xFF0C;&#x6807;&#x7B7E;&#xFF0C;&#x540D;&#x8BCD;&#x89E3;&#x91CA;&#x7B49;&#x3002;</p>
+<p>&#x4EE3;&#x7801;&#x6817;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">article</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x5185;&#x5BB9;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">aside</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x4F5C;&#x8005;&#x7B80;&#x4ECB;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x5C0F;&#x7EF4;,&#x54C8;&#x54C8;&#x54C8;<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">aside</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">article</span>&gt;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li><p><code>aside</code> &#x5728; <code>article</code> &#x5185;&#x8868;&#x793A;&#x4E3B;&#x8981;&#x5185;&#x5BB9;&#x7684;&#x9644;&#x5C5E;&#x4FE1;&#x606F;&#x3002;</p>
+</li>
+<li><p>&#x5728;<code>article</code>&#x4E4B;&#x5916;&#x4FA7;&#x53EF;&#x4EE5;&#x505A;&#x4FA7;&#x8FB9;&#x680F;&#xFF0C;&#x6CA1;&#x6709;<code>article</code>&#x4E0E;&#x4E4B;&#x5BF9;&#x5E94;&#xFF0C;&#x6700;&#x597D;&#x4E0D;&#x7528;&#x3002;</p>
+</li>
+<li><p>&#x5982;&#x679C;&#x662F;&#x5E7F;&#x544A;&#xFF0C;&#x5176;&#x4ED6;&#x65E5;&#x5FD7;&#x94FE;&#x63A5;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x5206;&#x7C7B;&#x5BFC;&#x822A;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x3002;</p>
+</li>
+</ul>
+<h4 id="html&#x8BED;&#x4E49;&#x5316;&#x5C0F;&#x7ED3;">HTML&#x8BED;&#x4E49;&#x5316;&#x5C0F;&#x7ED3;</h4>
+<p>&#x603B;&#x4E4B;&#xFF0C;HTML&#x8BED;&#x4E49;&#x5316;&#x662F;&#x53CD;&#x5BF9;&#x5927;&#x7BC7;&#x5E45;&#x4F7F;&#x7528;&#x65E0;&#x8BED;&#x4E49;&#x5316;&#x7684;div+span+class&#xFF0C;&#x800C;&#x9F13;&#x52B1;&#x4F7F;&#x7528;HTML&#x5B9A;&#x4E49;&#x597D;&#x7684;&#x8BED;&#x4E49;&#x5316;&#x6807;&#x7B7E;&#x3002;</p>
+<p>&#x5F53;&#x7136;&#xFF0C;&#x5982;&#x679C;&#x9700;&#x8981;&#x517C;&#x5BB9;&#x4F4E;&#x7248;&#x672C;&#x7684;IE&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;IE8&#x4EE5;&#x53CA;&#x4EE5;&#x4E0B;&#xFF0C;&#x90A3;&#x5C31;&#x9700;&#x8981;&#x8003;&#x8651;&#x4E00;&#x4E9B;HTML5&#x6807;&#x7B7E;&#x517C;&#x5BB9;&#x6027;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x4E86;&#x3002;</p>
+<h2 id="end">END</h2>
+<p>&#x5185;&#x5BB9;&#x548C;&#x77E5;&#x8BC6;&#x53C2;&#x8003;:</p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list" target="_blank">HTML5 &#x6807;&#x7B7E;&#x5217;&#x8868;</a></li>
+<li><a href="https://juejin.im/entry/5ab5f229518825558a069304" target="_blank">&#x5FEB;&#x901F;&#x7406;&#x89E3;web&#x8BED;&#x4E49;&#x5316;</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="HTML常用标签.html" class="navigation navigation-prev " aria-label="Previous page: HTML常用标签">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="DOCTYPE和浏览器渲染模式.html" class="navigation navigation-next " aria-label="Next page: DOCTYPE和浏览器渲染模式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"HTML语义化","level":"2.2","depth":1,"next":{"title":"DOCTYPE和浏览器渲染模式","level":"2.3","depth":1,"path":"book/html_css/DOCTYPE和浏览器渲染模式.md","ref":"book/html_css/DOCTYPE和浏览器渲染模式.md","articles":[]},"previous":{"title":"HTML常用标签","level":"2.1","depth":1,"path":"book/html_css/HTML常用标签.md","ref":"book/html_css/HTML常用标签.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","link-checker","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"link-checker":{"dieOnError":false,"fqdn":["developers.windingtree.com"]},"livereload":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true}},"theme":"default","author":"Danni Wang","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"danni's book","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"danni's Blog":"http://www.dannicheer.com"}},"gitbook":"*","description":"This is a sample book created by gitbook","extension":null},"file":{"path":"book/html_css/HTML语义化.md","mtime":"2020-01-04T06:26:52.651Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-05T02:29:31.795Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
