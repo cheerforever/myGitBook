@@ -1,0 +1,49 @@
+{
+    "author": "Danni Wang",
+    "description": "This is a sample book created by gitbook",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "danni's Blog": "http://www.dannicheer.com"
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+		"expandable-chapters-small",
+		"link-checker"
+	],
+	"pluginsConfig": {
+        "theme-default": {
+             "showLevel": true
+        },
+		"link-checker": {
+            "fqdn": [
+              "developers.windingtree.com"
+            ],
+            "dieOnError": false
+        }
+    },
+    "title": "danni's book",
+    "variables": {}
+}
