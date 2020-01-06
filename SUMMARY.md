@@ -11,6 +11,10 @@
 * [DOCTYPE和浏览器渲染模式](book/html_css/DOCTYPE和浏览器渲染模式.md)
 * [CSS盒模型](book/html_css/CSS盒模型.md)
 
+## javaScript设计模式
+
+* [javaScript设计原则](book/javaScript设计模式/javaScript设计原则.md)
+
 ## 前端架构与规范
 
 * [前端协作规范](book/前端架构与规范/前端协作规范.md)
