@@ -10,6 +10,7 @@
 * [HTML语义化](book/html_css/HTML语义化.md)
 * [DOCTYPE和浏览器渲染模式](book/html_css/DOCTYPE和浏览器渲染模式.md)
 * [CSS盒模型](book/html_css/CSS盒模型.md)
+* [CSS动画](book/html_css/CSS动画.md)
 
 ## javaScript设计模式
 
