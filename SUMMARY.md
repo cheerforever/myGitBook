@@ -12,6 +12,10 @@
 * [CSS盒模型](book/html_css/CSS盒模型.md)
 * [CSS动画](book/html_css/CSS动画.md)
 
+## javaScript基础
+
+* [闭包](book/javaScript基础/闭包.md)
+
 ## javaScript设计模式
 
 * [javaScript设计原则](book/javaScript设计模式/javaScript设计原则.md)
